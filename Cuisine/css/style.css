@@ -1,0 +1,360 @@
+@font-face{
+ 	src: url('../fonts/BerkshireSwash-Regular.ttf');
+ 	font-family: Indonesian;
+ }
+*{
+	margin: 0;
+	padding: 0;
+}
+:root{
+    --bs-dark-color:#3D763E ;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+} 
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+ button, a{
+  	font-size: 1.15rem !important;
+  	letter-spacing: 0.03rem ;
+  	word-spacing: .1 rem;
+
+  }
+  .my_text{
+    padding-left: 5rem;
+  }
+.bg-color{
+	  background-color: var( --bs-dark-color);
+	width: 100%;
+}
+.bg-main{
+	padding: 4rem;
+}
+.search_icon{
+	align-content: flex-end;
+	margin-left: 150px !important;
+}
+.nav_section{
+	margin-right : 2rem;
+	font-size: 40px;
+	align-items: center;
+	margin-left: 10px;
+}
+.image_section{
+	padding-right : 100px;
+}   
+                                  /*HERO SECTION */
+.hero-section{
+
+     display: grid;
+     place-items: center;
+    height: inherit
+
+
+    }
+   .font_styling{
+   	font-family: Indonesian;
+   	letter-spacing: .2rem ;
+    font-size: 90px;
+   }
+   .Cuisine{
+   	letter-spacing: .1rem;
+   	margin-left: 3rem;
+   	font-family: Indonesian;
+   }
+   /*.my_class{
+      
+   }*/
+
+    .bg_main{
+    	height: 80vh;
+    	position: relative;
+     
+    }
+    .bg_color_hero{
+    	height: 700px;
+
+    	background-image: linear-gradient(45deg, #427C42 , #5BB350);
+
+    }
+    .text_section{
+        padding-left: 4rem;
+
+    }
+   p{
+    margin: 0;
+    font-weight: 400;
+ /*   font-size: ;*/
+    color: var( --bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    text-align: start;
+    width: 550px;
+}
+.btn{
+    background-color: #F1CB38;
+    color: #5B722E;
+    border-radius: 2rem;
+}.image_part{
+    
+    background-size: 1000px;
+    background-size: 100%;
+     background-image: url('../images/img_back.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: right;
+     height: 700px;
+       /*padding-left:4rem ;*/
+
+}
+                     /*HERO SECTION */
+
+                    /* ABOUT SECTION START*/
+
+   .about_color{
+    background-image: linear-gradient(90deg, #427C42 , #5BB350);
+     color: #3D763E;
+
+   }
+   .font_type{
+    font: italic;
+    color: #3D763E;
+   }
+   .my_image{
+    margin-left: 6rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+   /*background-color: #F1CB38;
+  position: relative;
+  overflow: hidden;*/
+  /* box-shadow: -8px 8px 15px rgba(0, 0, 0, 0.5);*/
+   /*border-top-left-radius: 90%;
+   border-bottom-left-radius:90% ;*/
+   }
+   .btn-1{
+    background-color: white;
+   }
+
+    .about_section {
+    position: relative; /* To allow positioning of the background */
+}
+.about_font_color{
+ font-family: Indonesian;   
+}
+
+.content_container {
+    background-color: #F1CB38;
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: -15px 0 15px rgba(0, 0, 0, 0.1); /* Add drop shadow on the left side */
+}
+.font_type{
+    font-style: italic;
+}
+
+.my_image {
+    position: relative;
+    overflow: hidden;
+    width: 68%;
+    /*border-top-left-radius: 90%;
+    border-bottom-left-radius: 90%;*/
+}
+
+.my_image img {
+    width: 100%;
+    height: auto;
+}
+
+.para-width {
+    max-width: 80%; /* Adjust the width of the text to your liking */
+}
+.my_section{
+    padding-left: 4rem;
+}
+
+    /*SERVICES SECTION START*/
+    .services_section {
+  background-color: #3D763F;
+  padding: 40px 0;
+  letter-spacing: .2rem;
+}
+.para_ad{
+text-align: center;
+align-items: center;
+width: 270px;
+padding-left: 2rem;
+}
+
+      /*CHEF SECTION*/
+.chef_section{
+       /* padding: 6rem 0 3rem 0 !important;*/
+        letter-spacing: .2rem;
+        background-image: linear-gradient(180deg, #5BB350 , #4D8E48);
+
+     } 
+     .common-heading{
+        font-family: Indonesian;
+        
+        /*height: 200px;*/
+        
+     }
+     .images_section {
+        padding-left: 4rem;
+        display: flex;
+        justify-content: space-between; /* Equal spacing between images */
+}
+.my_sec{
+    background-image: url('../images/PattrenChef.png');
+    background-size: 1000px;
+    height: 250px;
+}
+
+.image-container {
+  position: relative;
+  margin: 10px;
+  flex: 1; /* Allow equal width for all image containers */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: none; /* Remove the additional border */
+}
+
+.overlay-text {
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 25px;
+  text-align: center; /* Center-align the text */
+  display: flex; /* Set the display to flex */
+  flex-direction: column; /* Stack the elements vertically */
+  align-items: center; /* Center the content horizontally */
+}
+
+.overlay-text h3,
+.overlay-text p {
+  margin: 0;
+  color: #fff; /* Set the text color to white */
+}
+
+
+.paragraph  {
+  margin: 0; /* Remove default margin for the paragraph */
+  width: 900px; /* Set the width of the paragraph container */
+  padding-bottom: 200px;
+}
+
+.last {
+  background-image: url('../images/PattrenChef2.png');
+  background-position: bottom; /* Position the background at the bottom */
+  background-size: 100% auto; /* Cover the whole width, maintain aspect ratio */
+  background-repeat: no-repeat; /* Prevent background from repeating */
+  height: 200px; /* Set the height of the background */
+}
+
+
+
+                                     /* READ MORE SECTION START*/
+
+   .read_image{
+    margin-left: 6rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  overflow: hidden;
+   }
+
+    .read_section {
+    position: relative; /* To allow positioning of the background */
+    background-color: #F39916;
+    padding: 5rem;
+    background-image: url('../images/PattrenOrange.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.para-width {
+    max-width: 80%; /* Adjust the width of the text to your liking */
+}
+.btn-1{
+    border-radius: 2rem;
+}
+.read_font_color{
+    letter-spacing: .1rem;
+    word-spacing: .07rem;
+}
+                      /* READ MORE SECTION END*/
+
+                     /* <!-- TESTIMONIAL SECTION START --*/
+
+.test_font{
+    font-family: Indonesian;
+    padding-top: 3rem;
+}
+.testimonial_section{
+    background-color: #3C793d;
+}
+.paragraph-test{
+    line-height: 2rem;
+}
+       .icon-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  background-color: #fff;
+  color: #4caf50;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}                 
+                    /*<!-- TESTIMONIAL SECTION END -->*/
+  .sectionmenu {
+  background-color: rgba(236, 194, 4, 0.959);
+  text-align: center;
+  padding: 50px;
+}
+.main-heading {
+  font-weight: bold;
+  font-family: "arti";
+  font-size: 120px;
+  color: #3b803d;
+}
+.subheading {
+  margin-top: 40px;
+  font-weight: lighter;
+  font-family: "arti";
+  color: #3b803d;
+}
+
+.menutext {
+  font-family: "arti";
+  color: #3b803d;
+}
+.pattern12 {
+  
+background-image: linear-gradient(90deg, #4A8A48 , #5BB350);
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%auto;
+ 
+}
