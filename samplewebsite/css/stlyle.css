@@ -1,0 +1,54 @@
+body{
+	background-color: #1F1029;
+	height: 500px;
+}
+
+.nav_class{
+	background-color: white;
+}
+.my_font{
+	font-family: Poppins, sans-serif;
+}
+.btn-1{
+	color: white;
+	background-color: #6617cb;
+    background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);
+}
+.my{
+	font-family: Bold700, sans-serif ;
+}
+span{
+	color: #B318FF;
+}
+.btn-2{
+	background-color: #AF1FFF;
+	color: white;
+	font-family: Poppins, sans-serif;
+	cursor: pointer;
+	overflow: hidden;
+	z-index: 1;
+}
+.btn-2::before {
+	content: '';
+	/*width: 0;
+	height: 3em;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	z-index: -1;
+    background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%);  
+}
+.btn-2:hover::before{
+	width: 9em;
+}
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+    right: 0;
+    
+
+}
